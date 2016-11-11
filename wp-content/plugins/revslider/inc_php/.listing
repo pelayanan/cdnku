@@ -1,0 +1,14 @@
+drwxrwxrwx   3 root     root         4096 Oct 22  2014 .
+drwxrwxrwx  13 root     root         4096 Oct 22  2014 ..
+-rwxrwxrwx   1 root     root         4075 Oct 22  2014 fonts.class.php
+drwxrwxrwx   2 root     root         4096 Oct 22  2014 framework
+-rwxrwxrwx   1 root     root            0 Sep 24  2014 index.php
+-rwxrwxrwx   1 root     root         1800 Oct 22  2014 revslider_globals.class.php
+-rwxrwxrwx   1 root     root        47750 Sep 24  2014 revslider_operations.class.php
+-rwxrwxrwx   1 root     root        75154 Sep 24  2014 revslider_output.class.php
+-rwxrwxrwx   1 root     root         1137 Sep 24  2014 revslider_params.class.php
+-rwxrwxrwx   1 root     root        11691 Sep 24  2014 revslider_settings_product.class.php
+-rwxrwxrwx   1 root     root        31767 Sep 24  2014 revslider_slide.class.php
+-rwxrwxrwx   1 root     root        56841 Sep 24  2014 revslider_slider.class.php
+-rwxrwxrwx   1 root     root         1431 Sep 24  2014 revslider_tinybox.class.php
+-rwxrwxrwx   1 root     root         3972 Sep 24  2014 revslider_widget.class.php
