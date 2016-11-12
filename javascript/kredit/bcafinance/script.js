@@ -46,6 +46,7 @@ wr(
         + "<tr><td><strong>Estimasi Total Pembayaran Pertama</strong></td><td id=k_total></td></tr>"
         + "</table>"
         + "</div>"
+        + "Versi 1 Generate By <a href=''>www.aksisoft.com</a>"
         );
 function byIDwr(byid, wer) {
     document.getElementById(byid).innerHTML = wer;
@@ -64,18 +65,18 @@ function ngte(fo) {
     jumlah_angsuran_perbulan = (k_uangpokok / 100) * angsuran_per_bulan;
     pembayaran_perbulan = k_uangpokok / totalbulan;
     total_bayar_perbulan = Math.round(pembayaran_perbulan + jumlah_angsuran_perbulan);
-    
+
     byIDwr("k_hargaotr", commafy(hargaotr));
     byIDwr("k_uangmuka", commafy(jumlahuangmuka));
     byIDwr("k_uangpokok", commafy(k_uangpokok));
     byIDwr("k_uangperbulan", commafy(total_bayar_perbulan));
     byIDwr("k_uangjangka", commafy(totalbulan));
-    
+
     jumlah_asuransi = (hargaotr / 100) * asuransi_persen;
     jumlah_provisi = (k_uangpokok / 100) * 0.5;
     polis_asuransi = 50000;
     jumlah_administrasi = 700000;
     total_pembayaran_pertama = jumlahuangmuka + total_bayar_perbulan + jumlah_asuransi + jumlah_provisi + polis_asuransi + jumlah_administrasi;
-    
+
     byIDwr("k_total", commafy(total_pembayaran_pertama));
 }
