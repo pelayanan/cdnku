@@ -44,3 +44,4 @@ function bikin_paginate($query = false, $kolom = false, $count_all = false) {
         <?php
     }
 }
+
